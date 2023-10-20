@@ -1,8 +1,6 @@
-import FactoryPatternAssignment.Shape;
-import FactoryPatternAssignment.ShapeFactory;
-import DecoratorPattern.*;
+package DecoratorPattern;
 
-public class Main {
+public class CoffeeShop {
     public static void main(String[] args) {
         Coffee basicCoffee = new BasicCoffee();
         System.out.println("Cost: $" + basicCoffee.cost());
