@@ -2,7 +2,7 @@ package DecoratorPattern;
 
 public class CoffeeShop {
     public static void main(String[] args) {
-        Coffee basicCoffee = new BasicCoffee();
+        Coffee basicCoffee = new BasicCoffe();
         System.out.println("Cost: $" + basicCoffee.cost());
         System.out.println("Description: " + basicCoffee.getDescription());
 

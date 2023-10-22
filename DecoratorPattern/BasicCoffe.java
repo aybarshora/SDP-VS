@@ -1,11 +1,5 @@
 package DecoratorPattern;
 
-interface Coffee {
-    double cost();
-
-    String getDescription();
-}
-
 class BasicCoffe implements Coffee {
     @Override
     public double cost() {
